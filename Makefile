@@ -10,7 +10,7 @@ SOURCES += $(STD_PERIPH_LIBS)/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx
 ASM_SOURCES = $(STD_PERIPH_LIBS)/Libraries/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc_ride7/startup_stm32f40_41xxx.s
 LDSCRIPT = STM32F407ZETx_FLASH.ld
 # name for output binary files
-PROJECT ?= led
+PROJECT ?= Template
 OUTPUT = ./build
 # compiler, objcopy (should be in PATH)
 CC = arm-none-eabi-gcc
